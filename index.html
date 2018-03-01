@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Co-Bike</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <!-- LOGO -->
+      <div class="logoContainer">
+        <a href="#"><img src="img/logo.png" alt="Co-Bike"></a>
+
+      </div>
+      <!-- NAV -->
+      <div class="nav">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle">
+        <div class="menu">
+          <a href="#">A propos</a>
+          <a href="#">Qui sommes-nous ?</a>
+          <a href="#">Nous contacter</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CIRCLES -->
+    <div class="bigCircle">
+      <img src="img/bgHome.png" alt="home">
+      <div class="text">
+        <span>CO-BIKE</span><br>Retrouvez la mobi-liberté.
+      </div>
+    </div>
+    <div class="smallCircle">
+      <div class="triangle-down"></div>
+    </div>
+
+    <!-- A PROPOS -->
+    <div class="ico">
+      <p class="aPropos">A propos de Co-Bike</p>
+      <p class="underaPropos">En apprendre plus sur Co-Bike et comment il peut changer votre vie.</p>
+      <!-- DESCRIPTION -->
+      <div class="icoDesc">
+        <img src="img/description.png" alt="Description">
+        <p>Le Co-Bike est un tandem qui vise à accueillir une personne valide et une personne à mobilité
+  réduite. L’intérêt de Co-Bike est de permettre une rééducation dite « douce » aux personnes
+  convalescentes mais aussi de d’offrir une activité sportive et plein air aux personnes à mobilité
+  réduite tout en étant accompagnée par un proche.</p>
+      </div>
+
+      <!-- COLLABORATION -->
+      <div class="icoCollab">
+        <img src="img/collab.png" alt="Innovation">
+        <p>Notre innovation se concentre sur le système de pédalage qui sera adapté à la personne suivant sa
+  déficience tout en restant en sécurité avec une assise ergonomique sur le Co-Bike.</p>
+      </div>
+
+      <!-- HANDICAP -->
+      <div class="icoHand">
+        <img src="img/handic.png" alt="Personne en situation d'handicap">
+        <p>Le Co-Bike ne reste pas fermé à un usage médical et thérapeutique mais est aussi destiné à toutes
+  personnes souhaitant profiter du vélo d’une nouvelle façon et d’une balade dominicale avec un
+  proche.</p>
+      </div>
+    </div>
+
+    <!-- QUISOMMESNOUS -->
+    <div class="quiSommesNous">
+      <div class="bg">
+        <img src="img/bgQSN.png" alt="quiSommesNous">
+      </div>
+
+      <div class="members">
+        <div class="member1">
+          <div class="memb" id="memb1"> <img src="img/membre1.png" alt="M1"> </div>
+          <p class="parag1" id="parag1">
+            <span>Nom Prénom</span><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc malesuada quis diam quis varius.
+            Donec in massa dictum, interdum nibh quis, aliquam ex.</p>
+        </div>
+
+        <div class="member2">
+          <div class="memb" id="memb2"> <img src="img/membre2.png" alt="M2"> </div>
+          <p class="parag2" id="parag2">
+            <span>Nom Prénom</span><br>Nunc a eros neque. Ut bibendum massa et erat euismod dictum.
+            Vivamus velit tortor, tempor non magna ut, sagittis pretium enim.</p>
+        </div>
+
+        <div class="member3">
+          <div class="memb" id="memb3"> <img src="img/membre3.png" alt="M3"> </div>
+          <p class="parag3" id="parag3">
+            <span>Nom Prénom</span><br>Donec quis metus ac tortor cursus bibendum sit amet sed libero.
+            Nunc a eros neque. Ut bibendum massa et erat euismod dictum.
+            Vivamus velit tortor, tempor non magna ut, sagittis pretium enim.</p>
+        </div>
+
+        <div class="member4">
+          <div class="memb" id="memb4"> <img src="img/membre4.png" alt="M4"> </div>
+          <p class="parag4" id="parag4">
+            <span>Nom Prénom</span><br>Ut bibendum massa et erat euismod dictum.
+            Vivamus velit tortor, tempor non magna ut, sagittis pretium enim.</p>
+        </div>
+      </div>
+
+      <div class="textQSN">
+        Qui sommes-nous ?
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact">
+      <h1>Nous contacter</h1>
+      <form class="contactForm" action="mailto:co.bike.contact@gmail.com" method="post">
+        <input type="text" name="nom" placeholder="Nom">
+        <input type="text" name="email" placeholder="E-Mail">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+
+    <!-- SOCIAL MEDIA -->
+    <div class="social">
+      <a href="https://www.facebook.com/CoBikeCorp/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/CoBikeCorp"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="copyright">
+      © 2018 COBIKE. TOUS DROITS RESERVES
+    </div>
+
+  </body>
+</html>
